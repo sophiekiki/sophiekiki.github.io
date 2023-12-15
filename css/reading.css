@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: #cfc7c23c;
+}
+
+/* 章节内容部分 */
+.reader-container {
+    max-width: 1100px;
+    margin: 10px auto;
+    padding: 80px 80px 40px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.chapter {
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    color: #333;
+}
+
+.book-title {
+    font-size: 20px;
+    margin-bottom: 50px;
+    color: #000;
+}
+
+.chapter-info {
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.chapter-content {
+    margin-bottom: 50px;
+}
+
+.controls {
+    display: flex;
+    justify-content: space-between;
+}
+
+.controls button {
+    width: 130px;
+    height: 30px;
+    color: #fff;
+    font-size: 14px;
+    background: #ff5e00a7;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.controls button:hover {
+    background: #ff5e00e1;
+}

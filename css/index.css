@@ -1,0 +1,226 @@
+/* 轮播部分 */
+.header-banner {
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.header-banner li {
+    width: 1536px;
+    height: 400px;
+}
+
+.banner-show {
+    width: 1536px;
+    height: 400px;
+    position: relative;
+    /* overflow: hidden; */
+}
+
+.header-banner img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* 主体推荐部分 */
+.muve-home {
+    position: relative;
+    height: 480px;
+    margin: 150px auto 0;
+    background-image: url(../images/index-home-bgi.jpg);
+}
+
+.muve-home-block {
+    position: absolute;
+    left: 80px;
+    display: flex;
+    width: 1400px;
+    top: -100px;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.muve-home-block a {
+    color: #000000;
+}
+
+.muve-home-block a:hover {
+    color: #ff5f00;
+}
+
+.home-title {
+    margin-bottom: 50px;
+}
+
+.home {
+    width: 250px;
+    height: 530px;
+    padding: 0 30px 0;
+}
+
+.home .title {
+    margin-top: 20px;
+    font-size: 20px;
+
+}
+
+.home .author {
+    margin-top: 10px;
+    font-size: 14px;
+
+}
+
+.home .author a {
+    color: rgba(145, 118, 118, 0.594);
+}
+
+.home .intro {
+    margin-top: 20px;
+    height: 50px;
+    font-size: 12px;
+}
+
+.home .intro a {
+    display: -webkit-box;
+    height: 50px;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.home-img img {
+    display: block;
+    width: 200px;
+    height: 280px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px #888888;
+    border: 1px solid #ccc;
+}
+
+
+/* 主体列表 */
+.home-item {
+    display: flex;
+    margin: 10px 0 0 10px;
+    flex-wrap: wrap;
+}
+
+.home-item-block {
+    width: 1250px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.home-item-block img {
+    width: 140px;
+    height: 180px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px #888888;
+    border: 1px solid #ccc;
+}
+
+.home-img img:hover,
+.home-item img:hover {
+    transform: scale(1.05);
+}
+
+.home-item li {
+    margin-right: 50px;
+    margin-top: 10px;
+}
+
+.item-title {
+    margin-top: 5px;
+    width: 140px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.home-item-block .item-author a {
+    font-size: 14px;
+    color: rgba(145, 118, 118, 0.594);
+}
+
+
+/*最近更新开始*/
+.update {
+    width: 100%;
+    background-color: #fafafa;
+    border-radius: 5px;
+    text-align: left;
+    font-size: 16px;
+}
+
+.update-block a {
+    color: #000;
+}
+
+.update-block a:hover {
+    color: #ff5f00;
+}
+
+.update-block {
+    width: 1300px;
+    margin: 50px auto;
+}
+
+.update h2 {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.update-table {
+    width: 100%;
+    border-collapse: collapse;
+    /* 边框 */
+}
+
+.update .update-table .update-item {
+    color: rgba(0, 0, 0, .4);
+}
+
+.update .update-table .update-item:nth-child(n+5) {
+    width: 100px;
+}
+
+.update .update-table tr {
+    border-bottom: 1px solid #99999940;
+}
+
+.update .update-table td {
+    height: 70px;
+    border-spacing: 2px;
+    color: rgba(0, 0, 0, .8);
+}
+
+.update-table .enter-book {
+    width: 350px;
+}
+
+.update-table .enter-chapter {
+    width: 420px;
+}
+
+/* 尾部部分 */
+.footer {
+    height: 20px;
+    text-align: center;
+    font-size: 12px;
+    letter-spacing: 4px;
+    margin-top: 10px;
+    font-family: "Microsoft YaHei", 微软雅黑, "MicrosoftJhengHei", 华文细黑, STHeiti, MingLiu;
+    background-color: #fafafa;
+
+}
+
+.footer a {
+    color: #000;
+}
+
+.footer a:hover {
+    color: #ff5f00;
+}

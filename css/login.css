@@ -1,0 +1,155 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background: url(../images/bcgImg-in-login.jpg) no-repeat;
+    background-size: cover;
+}
+
+/* 登录总体部分 */
+.login-item {
+    width: 860px;
+    height: 500px;
+    position: absolute;
+    left: 50%;
+    top: 45%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* 左侧部分 */
+.left {
+    float: left;
+    display: block;
+    width: 380px;
+    height: 500px;
+    background-image: url(../images/纯女孩.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    border-right: 0.5px solid #5353536f;
+}
+
+.create {
+    margin: 70px 0px 20px 30px;
+    padding-bottom: 10px;
+    font-size: 50px;
+    color: #fec93d;
+    font-style: italic;
+    font-family: 华文隶书;
+    font-weight: 700;
+    letter-spacing: 8px;
+    border-bottom: #f4cd60 1.5px dashed;
+
+}
+
+.item {
+    margin: 20px;
+    font-size: 25px;
+    color: #d6a05f;
+    font-family: 华文隶书;
+    letter-spacing: 1.5px;
+    font-style: italic;
+    white-space: nowrap;
+}
+
+.author {
+    height: 20px;
+    margin-top: 160px;
+    text-align: center;
+    font-size: 12px;
+    font-family: "Microsoft YaHei", 微软雅黑, "MicrosoftJhengHei", 华文细黑, STHeiti, MingLiu;
+    letter-spacing: 4px;
+}
+
+/* 右侧部分 */
+.right {
+    float: right;
+    position: relative;
+    display: block;
+    width: 450px;
+    height: 470px;
+    padding-right: 10px;
+    padding-top: 35px;
+    background: transparent;
+    font-size: 18px;
+}
+
+h1 {
+    padding-top: 40px;
+    font-size: 35px;
+    font-family: 微软雅黑;
+    text-shadow: 4px 2px 6px rgba(0, 0, 0, 0.5);
+}
+
+.right input::placeholder {
+    font-size: 14px;
+}
+
+.userName,
+.passWord {
+    display: inline-block;
+    width: 260px;
+    height: 30px;
+    margin: 25px 10px 10px 10px;
+    border: 0;
+    background: transparent;
+    font-size: 18px;
+    color: #000;
+    border-bottom: 1px dashed rgba(0, 0, 0, 1);
+    -internal-autofill-selected: transparent;
+}
+
+.userName:focus,
+.passWord:focus {
+    border-bottom: 1px dashed rgba(0, 0, 0, 1);
+    outline: none;
+}
+
+.login-warning {
+    position: absolute;
+    left: 100px;
+    margin-top: 10px;
+    color: #ff5e0096;
+    font-size: 14px;
+    letter-spacing: 5px;
+}
+
+#init {
+    display: block;
+    margin-top: 40px;
+    width: 300px;
+    height: 40px;
+    background: #fef7ee6d;
+    font-size: 18px;
+    border: 0;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+#init:hover {
+    background: transparent;
+}
+
+.login-to-register {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.login-to-register a {
+    color: #535353;
+    font-size: 17px;
+}
+
+.login-to-register a:hover {
+    color: #ff5f00;
+}
+
+.zi {
+    margin-top: 50px;
+    font-size: 12px;
+    font-family: "Microsoft YaHei", 微软雅黑, "MicrosoftJhengHei", 华文细黑, MingLiu;
+    letter-spacing: 20px;
+}

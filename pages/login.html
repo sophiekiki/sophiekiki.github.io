@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>login</title>
+
+	<!-- 引入样式 -->
+	<link rel="stylesheet" href="../css/reset.css">
+	<link rel="stylesheet" href="../css/login.css">
+	<link rel="stylesheet" href="../css/head.css">
+</head>
+
+<body>
+	<!-- 头部开始 -->
+	<div class="header wrapper clearfix">
+		<!-- 头部导航栏 -->
+		<div class="header-nav wrapper">
+		</div>
+	</div>
+
+	<div class="login-item">
+		<!-- 左侧部分 -->
+		<div class="left">
+			<div class="create">
+				Create
+			</div>
+			<div class="item">
+				<div style="margin: 20px;">
+					your world with <span style="font-weight: 800;font-size: 27px;">Words</span>
+				</div>
+				<div style="margin: 20px;">
+					and step into it!
+				</div>
+			</div>
+			<div style="text-align: right;font-size: 20px;letter-spacing: 8px;color: #d6a05f;font-family: 方正舒体;">
+				-- 致自己
+			</div>
+			<div class="author">
+				技术支持：kitigee@qq.com
+			</div>
+		</div>
+
+		<!-- 右侧部分 -->
+		<div align="center" class="right clearfix">
+
+			<div>
+				<h1>登&nbsp;&nbsp;录</h1>
+			</div>
+			<form id="loginForm">
+				<div class="log">
+					<div>
+						用 户 名：
+						<input type="text" placeholder="请输入用户名" class="userName" id="username" autocomplete="username"
+							required>
+					</div>
+
+
+					<div>
+						密&nbsp;&nbsp;&nbsp;码：<input type="text" placeholder="请输入密码" class="passWord" id="password"
+							autocomplete="new-password" required />
+					</div>
+					<div class="login-warning" style="display: none;">
+						用户名或密码不正确，请重试
+					</div>
+				</div>
+
+				<div>
+					<button type="submit" id="init">登 录 - - ></button>
+				</div>
+			</form>
+			<div class="login-to-register">
+				还没有账号？ <a href="./register.html">注册</a>
+			</div>
+			<div class="zi">
+				言由心生，心由字画
+			</div>
+		</div>
+
+	</div>
+
+	<!-- 引入脚本 -->
+	<script src="https://kit.fontawesome.com/b4214bc2ee.js" crossorigin="anonymous"></script>
+	<script src="../js/login.js" type="module"></script>
+</body>
+
+</html>

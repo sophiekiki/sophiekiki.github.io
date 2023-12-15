@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>register</title>
+
+	<!-- 引入样式 -->
+	<link rel="stylesheet" href="../css/reset.css">
+	<link rel="stylesheet" href="../css/register.css">
+	<link rel="stylesheet" href="../css/head.css">
+</head>
+
+<body>
+	<!-- 头部开始 -->
+	<div class="header wrapper clearfix">
+		<!-- 头部导航栏 -->
+		<div class="header-nav wrapper">
+		</div>
+	</div>
+
+	<div class="register">
+		<!-- 左侧部分 -->
+		<div class="left">
+			<div class="left-title">
+				Words
+			</div>
+			<div class="item">
+				<div style="margin: 20px;">
+					People do not <span style="font-weight: 800;font-size: 27px;">write</span> with
+				</div>
+				<div style="margin: 20px;">
+					white hair , but with wisdom
+				</div>
+				<div style="margin: 20px;text-align: right;">
+					and <span style="font-weight: 800;font-size: 27px;">insight !</span>
+				</div>
+			</div>
+			<div style="text-align: right;font-size: 20px;letter-spacing: 8px;color: #d6a05f;font-family: 方正舒体;">
+				-- 致自己
+			</div>
+			<div class="author">
+				技术支持：kitigee@qq.com
+			</div>
+		</div>
+
+		<!-- 右侧部分 -->
+		<div align="center" class="right">
+			<div>
+				<h1>注&nbsp;&nbsp;册</h1>
+			</div>
+			<form id="registerForm">
+				<div class="inp">
+					用 户 名：
+					<input type="text" placeholder="请输入用户名" class="userName" id="username" autocomplete="off">
+				</div>
+
+				<div class="inp">
+					密 码：
+					<input type="text" placeholder="请输入密码" class="password-one" name="password"
+						autocomplete="new-password">
+				</div>
+
+				<div class="inp">
+					确认密码：
+					<input type="text" placeholder="请再次输入密码" class="password-two" name="password"
+						autocomplete="new-password">
+				</div>
+				<div class="register-warning" style="display:none;">
+				</div>
+				<div>
+					<button type="submit" id="init">注 册 - - ></button>
+				</div>
+			</form>
+			<div class="register-to-login">
+				已经有账号？ <a href="./login.html" style="font-size: 16px;">登录</a>
+			</div>
+			<div class="zi">
+				言由心生，心由字画
+			</div>
+		</div>
+
+	</div>
+	<!-- 引入脚本 -->
+	<script src="https://kit.fontawesome.com/b4214bc2ee.js" crossorigin="anonymous"></script>
+	<script src="../js/register.js" type="module"></script>
+</body>
+
+</html>

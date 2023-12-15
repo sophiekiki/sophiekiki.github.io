@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>search</title>
+    <!-- 引入样式 -->
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/search.css">
+    <link rel="stylesheet" href="../css/head.css">
+    <link rel="stylesheet" href="">
+</head>
+
+<body>
+    <!-- 头部开始 -->
+    <div class="header wrapper clearfix">
+        <div class="header-nav wrapper">
+        </div>
+    </div>
+
+    <!-- 搜索栏开始  -->
+    <div class="muye-search clearfix">
+        <div class="muye-search-content">
+            <i class="fa-solid fa-magnifying-glass search-item"></i>
+            <input type="text" id="use-input" placeholder="请输入书名或作者名">
+            <button class="search-button">搜 索</button>
+        </div>
+
+        <!-- 搜索内容书籍开始 -->
+        <!-- 搜索导航栏 -->
+        <div class="nav-content">
+            <ul class="filter-nav">
+                <li><a href="" class="nav-content-link filterNav checked">相关</a></li>
+                <li><a href="" class="nav-content-hot filterNav">最热</a></li>
+                <li><a href="" class="nav-content-new filterNav">最新</a></li>
+            </ul>
+        </div>
+        <!-- 搜索结果 -->
+        <div class="muye-search-book-list">
+        </div>
+
+    </div>
+
+    <!-- 引入脚本 -->
+    <script src="https://kit.fontawesome.com/b4214bc2ee.js" crossorigin="anonymous"></script>
+    <script src="../js/search.js" type="module"></script>
+</body>
+
+</html>

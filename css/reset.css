@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 1536px;
+    overflow-x: hidden;
+}
+
+/* 全局居中 */
+.wrapper {
+    margin: 0 auto;
+    width: 1536px;
+}
+
+.clearfix::before,
+.clearfix::after {
+    content: "";
+    display: table;
+}
+
+.clearfix::after {
+    clear: both;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ff5f00;
+}
+
+ul li {
+    list-style: none;
+}
+
+input {
+    outline: none;
+}
+
+/* 向左浮动 */
+.float-left {
+    float: left;
+}
+
+/* 悬浮放大效果 */
+.hover-bigger {
+    position: relative;
+    overflow: hidden;
+    transition: transform 1s ease-in-out;
+}

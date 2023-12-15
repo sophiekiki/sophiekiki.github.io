@@ -1,0 +1,181 @@
+/* 书城分类开始 */
+.categorization-content {
+    width: 1000px;
+    margin: 30px auto;
+    text-align: center;
+    font-size: 15px;
+}
+
+.filter {
+    display: flex;
+}
+
+.filter a {
+    color: #000;
+}
+
+.filter a:hover {
+    color: #ff5f00;
+}
+
+.filter .filter-title {
+    color: #999;
+    font-size: 14px;
+}
+
+.filter li {
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+    line-height: 45px;
+}
+
+.filter a .filter-del {
+    color: #999;
+}
+
+
+
+/* 书城分类结束 */
+
+
+/* 书城内容主体开始 */
+/* 导航部分 */
+.filter-nav {
+    width: 1000px;
+    margin: 30px auto;
+    border-bottom: #999 1px solid;
+}
+
+.filter-nav ul {
+    display: flex;
+}
+
+.filter-nav li {
+    margin: 20px;
+}
+
+
+.filter-nav a {
+    color: #000;
+}
+
+.filter-nav a:hover {
+    color: #ff5f00;
+}
+
+body .checked {
+    display: inline-block;
+    padding: 0 5px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    background-color: #ff5e003e;
+    border-radius: 10px;
+    color: #ff5f00;
+}
+
+/* 内容 */
+.filter-item {
+    display: flex;
+    width: 1000px;
+    margin: 20px auto;
+    flex-wrap: wrap;
+    align-content: space-between;
+    font-size: 14px;
+    color: rgba(0, 0, 0, .4);
+}
+
+.item-self {
+    display: flex;
+    margin-top: 40px;
+    /* 调整间距 */
+    width: 50%;
+    /* 每行放置两个子元素 */
+    box-sizing: border-box;
+    /* 保证边框和内边距不会增加元素的宽度 */
+}
+
+.item-img {
+    position: relative;
+    display: block;
+    width: 140px;
+    height: 180px;
+}
+
+.item-self img {
+    width: 140px;
+    height: 180px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px 0px #999999;
+}
+
+/* 控制盒子显示 */
+.item-img:hover .join-container {
+    display: block;
+}
+
+/* 隐藏盒子 */
+.join-container {
+    display: none;
+    width: 140px;
+    height: 180px;
+    position: absolute;
+    z-index: 2;
+    background: rgba(195, 176, 165, 0.735);
+    border-radius: 10px;
+}
+
+.join-container button {
+    z-index: 1;
+    left: 25px;
+    width: 90px;
+    height: 25px;
+    position: absolute;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 5px 5px 10px 0px #999999;
+}
+
+.join-container button:hover {
+    background: #ebaa84c5;
+}
+
+.toIntro {
+    top: 50px;
+}
+
+.joining {
+    top: 100px;
+}
+
+/* 右侧 */
+.item-intro {
+    margin-left: 30px;
+    width: 300px;
+}
+
+.item-desc {
+    display: block;
+    margin-top: 5px;
+}
+
+h2 .item-title {
+    color: #000;
+}
+
+.item-author,
+.intro-content {
+    color: rgba(0, 0, 0, .6);
+}
+
+/* 处理简介文字溢出 */
+.intro-content {
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    width: 300px;
+    height: 90px;
+    overflow: hidden;
+}

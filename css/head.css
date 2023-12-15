@@ -1,0 +1,184 @@
+/* 头部部分 */
+.header {
+    height: 80px;
+}
+
+.header-nav {
+    display: flex;
+    z-index: 1;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    font-size: 14px;
+    background: #cfc7c22d;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+}
+
+
+/* logo */
+.header-logo {
+    display: flex;
+    margin-left: 50px;
+    height: 28px;
+}
+
+#logo {
+    margin-right: 10px;
+}
+
+#logo img {
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    border: #9999991d 1px solid;
+}
+
+#logo-name {
+    line-height: 28px;
+    color: #000;
+    font-family: 楷体, Helvetica, Arial, sans-serif;
+    letter-spacing: 5px;
+    font-size: 22px;
+}
+
+/* 导航栏内容 */
+.nav-item {
+    margin-left: 450px;
+}
+
+.nav-item-content {
+    display: flex;
+    font-size: 14px;
+}
+
+.nav-item-content a {
+    color: black;
+}
+
+.nav-item .nav-item-content li a:last-child() {
+    color: #ff5f00;
+}
+
+.nav-item-content li {
+    margin: 0 25px;
+}
+
+/* 搜索部分 */
+.header-search {
+    margin: 0 20px;
+    display: flex;
+    padding: 0 15px;
+    width: 200px;
+    height: 30px;
+    align-items: center;
+    border-radius: 17px;
+    background-color: #ffffffee;
+    color: #bfbfbf;
+}
+
+.search-item {
+    cursor: pointer;
+    opacity: 0.8;
+    color: black;
+}
+
+#header-search {
+    border: 0;
+    outline: 0;
+    width: 100%;
+    height: 100%;
+    font-size: 12px;
+    background: transparent;
+    opacity: .8;
+    border: 0;
+}
+
+.search-item:hover,
+.nav-item a:hover,
+.user-login li a:hover {
+    color: #ff5f00;
+    opacity: 0.8;
+}
+
+
+/* 登录和注册*/
+.user-login {
+    margin-left: 10px;
+    float: right;
+    display: flex;
+    align-items: center;
+}
+
+.user-login li {
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 14px;
+    padding-left: 30px;
+    line-height: 14px;
+}
+
+.user-login li:last-child {
+    position: relative;
+}
+
+.user-login li a {
+    color: black;
+}
+
+.user-login li:first-child {
+    border-left: 1px solid #000000;
+}
+
+.user-login img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+/* 登出 */
+.log-out {
+    display: none;
+    width: 75px;
+    height: 25px;
+    position: absolute;
+    left: 20px;
+    top: 25px;
+    cursor: pointer;
+    background-color: #ffc29e52;
+    line-height: 25px;
+    text-align: center;
+    border-radius: 8px
+}
+
+/* 用户切换头像 */
+.userImg-block {
+    width: 42px;
+    height: 42px;
+    display: none;
+    position: absolute;
+    z-index: 1;
+    border-radius: 50%;
+    background-color: rgba(139, 139, 139, 0.665);
+}
+
+.label-for-userImg .useImg {
+    width: 27px;
+    height: 27px;
+}
+
+.label-for-userImg {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
