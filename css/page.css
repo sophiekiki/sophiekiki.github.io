@@ -6,7 +6,8 @@ body {
 /* item */
 .book-intro-block {
     display: flex;
-    padding: 20px 200px;
+    width: 100%;
+    padding: 100px 200px 20px;
     background: #fff;
     color: rgba(0, 0, 0, .4);
 }
@@ -118,7 +119,7 @@ h1 .item-title {
 
 /* 简介 */
 .book-intro {
-    width: 1200px;
+    width: 1190px;
     margin: 30px auto;
     padding: 30px;
     background: #fff;

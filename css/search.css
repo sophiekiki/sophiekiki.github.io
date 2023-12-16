@@ -4,10 +4,11 @@ body {
 
 /* 搜索栏开始 */
 .muye-search {
-    width: 1200px;
-    margin: 0 auto;
+    width: 1190px;
+    margin: 80px auto 20px;
     padding: 30px;
     background: #fff;
+    border-radius: 10px;
 }
 
 .muye-search-content {
@@ -26,11 +27,10 @@ body {
 
 #use-input {
     display: block;
-    width: 390px;
+    width: 400px;
     margin-left: 15px;
     font-size: 18px;
     background-color: transparent;
-
     border: none;
     outline: none;
 }
@@ -41,7 +41,7 @@ body {
 
 .search-button {
     display: block;
-    width: 75px;
+    width: 80px;
     height: 40px;
     background: #ff5e00ca;
     border-radius: 0 20px 20px 0;

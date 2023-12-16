@@ -21,7 +21,9 @@ function initHeader(objClass = '.class') {
     </div>
     <div class="header-search">
         <input type="text" placeholder="请输入书名或作者名" id="header-search">
-        <i class="fa-solid fa-magnifying-glass search-item"></i>
+        <i  class="search-item">
+        <img src="/images/search.svg" alt="">
+        </i>
     </div>
     <div class="user-item">
         <ul class="user-login">

@@ -7,29 +7,25 @@
     <title>index</title>
 
     <!-- 引入样式 -->
-    <link rel="stylesheet" href="/css/reset.css">
-    <link rel="stylesheet" href="/css/index.css">
-    <link rel="stylesheet" href="/css/head.css">
-    <link rel="preload" href="/util/sharedData.js" as=" script">
-    <link rel="preload" href="/util/headerLoad.js" as="script">
-    <link rel="preload" href="/util/jumpOrJoin.js" as="script">
-    <link rel="preload" href="/util/filterBooks.js" as="script">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/head.css">
 </head>
 
 <body>
     <!-- 头部开始 -->
-    <div class="header wrapper">
+    <div class="header wrapper" style="height: 400px;">
         <!-- 轮播部分 -->
-        <div class="banner-show">
+        <div class="banner-show " class="wrapper">
             <ul class="header-banner">
-                <li><a href="javascript:;"><img src="/images/banner-1.jpg" alt=""></a></li>
-                <li><a href="javascript:;"><img src="/images/banner-2.jpg" alt=""></a></li>
-                <li><a href="javascript:;"><img src="/images/banner-3.jpg" alt=""></a></li>
-                <li><a href="javascript:;"><img src="/images/banner-4.jpg" alt=""></a></li>
+                <li><a href="javascript:;"><img src="./images/banner-1.jpg" alt=""></a></li>
+                <li><a href="javascript:;"><img src="./images/banner-2.jpg" alt=""></a></li>
+                <li><a href="javascript:;"><img src="./images/banner-3.jpg" alt=""></a></li>
+                <li><a href="javascript:;"><img src="./images/banner-4.jpg" alt=""></a></li>
             </ul>
         </div>
         <!-- 头部导航栏 -->
-        <div class="header-nav">
+        <div class="header-nav wrapper">
         </div>
     </div>
     <!-- 头部结束 -->
@@ -79,8 +75,7 @@
     </div>
 
     <!-- 引入脚本 -->
-    <script src="/util/sharedData.js"></script>
-    <script src="./js/index.js" type="module" defer></script>
+    <script src="./js/index.js" type="module"></script>
 </body>
 
 </html>

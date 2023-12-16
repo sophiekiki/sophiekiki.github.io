@@ -7,19 +7,18 @@
 }
 
 .header-banner li {
-    width: 1536px;
-    height: 400px;
+    width: 1190px;
+    height: 350px;
 }
 
 .banner-show {
-    width: 1536px;
-    height: 400px;
+    width: 1190px;
+    height: 350px;
     position: relative;
-    /* overflow: hidden; */
+    overflow: hidden;
 }
 
 .header-banner img {
-    display: block;
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -28,18 +27,18 @@
 /* 主体推荐部分 */
 .muve-home {
     position: relative;
-    height: 480px;
-    margin: 150px auto 0;
-    background-image: url(../images/index-home-bgi.jpg);
+    width: 1190px;
+    height: 430px;
+    margin: 150px auto 40px;
+    background: url(/images/index-home-bgi.jpg) no-repeat;
 }
 
 .muve-home-block {
     position: absolute;
-    left: 80px;
+    top: -110px;
     display: flex;
-    width: 1400px;
-    top: -100px;
-    overflow: hidden;
+    padding: 10px;
+    margin: 0 auto;
     border-radius: 5px;
 }
 
@@ -56,9 +55,8 @@
 }
 
 .home {
-    width: 250px;
     height: 530px;
-    padding: 0 30px 0;
+    padding: 0 20px 0;
 }
 
 .home .title {
@@ -70,7 +68,6 @@
 .home .author {
     margin-top: 10px;
     font-size: 14px;
-
 }
 
 .home .author a {
@@ -78,23 +75,26 @@
 }
 
 .home .intro {
-    margin-top: 20px;
+    width: 200px;
     height: 50px;
+    margin-top: 20px;
+    line-height: 16px;
     font-size: 12px;
 }
 
 .home .intro a {
     display: -webkit-box;
-    height: 50px;
+    height: 60px;
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
     overflow: hidden;
+    line-height: 20px;
 }
 
 .home-img img {
     display: block;
-    width: 200px;
-    height: 280px;
+    width: 160px;
+    height: 220px;
     border-radius: 5px;
     box-shadow: 3px 3px 5px #888888;
     border: 1px solid #ccc;
@@ -109,14 +109,15 @@
 }
 
 .home-item-block {
-    width: 1250px;
+    width: 900px;
+    height: 500px;
     display: flex;
     flex-wrap: wrap;
 }
 
 .home-item-block img {
-    width: 140px;
-    height: 180px;
+    width: 120px;
+    height: 160px;
     border-radius: 5px;
     box-shadow: 3px 3px 5px #888888;
     border: 1px solid #ccc;
@@ -128,7 +129,9 @@
 }
 
 .home-item li {
-    margin-right: 50px;
+    width: 120px;
+    height: 240px;
+    margin-right: 30px;
     margin-top: 10px;
 }
 
@@ -148,7 +151,8 @@
 
 /*最近更新开始*/
 .update {
-    width: 100%;
+    width: 1190px;
+    margin: 0 auto;
     background-color: #fafafa;
     border-radius: 5px;
     text-align: left;
@@ -164,8 +168,9 @@
 }
 
 .update-block {
-    width: 1300px;
+    width: 1100px;
     margin: 50px auto;
+    padding: 10px;
 }
 
 .update h2 {
@@ -197,6 +202,7 @@
     color: rgba(0, 0, 0, .8);
 }
 
+
 .update-table .enter-book {
     width: 350px;
 }
@@ -207,6 +213,7 @@
 
 /* 尾部部分 */
 .footer {
+    width: 100%;
     height: 20px;
     text-align: center;
     font-size: 12px;

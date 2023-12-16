@@ -76,7 +76,7 @@ function nextSlide() {
     if (nextIndex === 0) {
         banner.style.left = "0";
     } else {
-        banner.style.left = `-${1536 * nextIndex}px`;
+        banner.style.left = `-${1190 * nextIndex}px`;
     }
     currentIndex = nextIndex;
 }
